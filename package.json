@@ -1,0 +1,22 @@
+{
+  "name": "03-bases-node",
+  "version": "0.0.1",
+  "description": "Tabla de multiplicar",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app --base=3"
+  },
+  "keywords": [
+    "multiplicacion"
+  ],
+  "author": "cacho avellana",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
